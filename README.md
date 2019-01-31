@@ -20,7 +20,6 @@ cd custom-console
 npm install
 
 ### Usage
-[source code]
 `var custom_console = require('custom-console').custom_console;
 
 custom_console.log("Some message", "blue") // Some message in blue
