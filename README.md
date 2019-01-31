@@ -20,7 +20,8 @@ cd custom-console
 npm install
 
 ### Usage
-`var custom_console = require('custom-console').custom_console;
+```javascript
+var custom_console = require('custom-console').custom_console;
 
 custom_console.log("Some message", "blue") // Some message in blue
 
@@ -28,7 +29,8 @@ custom_console.getAnsiColors() // returns a list of all ansi-colors
 
 //OR you can directly run as a script
 
-node custom-console.js message green // prints message in green`
+node custom-console.js message green // prints message in green
+```
 
 ### Contribution
 
